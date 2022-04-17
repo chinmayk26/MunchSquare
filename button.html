@@ -9,31 +9,13 @@
 if (window.Notification) {
   Notification.requestPermission(() => {
     if (Notification.permission === 'granted') {
-      navigator.serviceWorker.register('./worker.js')
+      navigator.serviceWorker.register('./sw.js')
         .then((worker) => {
           worker.showNotification('Hello world!');
         });
     }
   });
 }
-self.addEventListener('notificationclick', () => {
-  console.log('Clicked!');
-});
-
-worker.showNotification('A new message!', {
-  actions: [
-    {
-      action: 'show',
-      title: 'Show it',
-      icon: '/check.png'
-    },
-    {
-      action: 'ignore',
-      title: 'Ignore it',
-      icon: '/delete.png'
-    }
-  ]
-})
 
 
  </script>
