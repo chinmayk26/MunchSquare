@@ -1,90 +1,60 @@
 {
-  "short_name": "MunchSquare",
-  "name": "OnlinefoodDelivery",
-  "theme_color": "#4A90E2",
-  "background_color": "#F7F8F9",
-  "display": "standalone",
+  "short_name": "Weather",
+  "name": "Weather: Do I need an umbrella?",
   "icons": [
     {
-      "src": "images/about.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512",
+      "src": "icon.png",
+      "type": "image/svg+xml",
+      "sizes": "512x512",.
 	  "purpose": "any maskable"
     },
     {
-      "src": "images/blogs 1.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512",
-	  "purpose": "any maskable"
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+	    "purpose": "any maskable"
     },
     {
-      "src": "images/brita.png",
+      "src": "icon.png",
       "type": "image/png",
       "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/bsk.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-	  
-    },
-    {
-      "src": "images/burger.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/chef-1.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/chef.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/deliver-1.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/deliver.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/dunkin.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/icon.png",
-      "type": "image/png",
-      "sizes": "512x512",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/logo 1.png",
-      "type": "image/png",
-      "sizes": "196x196",
-      "purpose": "maskable",
-	  	    "purpose": "any maskable"
-    },
-    {
-      "src": "images/logo 2.png",
-      "type": "image/png",
-      "sizes": "196x196",
-	  	    "purpose": "any maskable"
+	    "purpose": "any maskable"
     }
   ],
-  "start_url": "https://munch756.herokuapp.com/homepage.php"
+  "start_url": "https://munchsquare.herokuapp.com/homepage.php",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "How's weather today?",
+      "short_name": "Today",
+      "description": "View weather information for today",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "How's weather tomorrow?",
+      "short_name": "Tomorrow",
+      "description": "View weather information for tomorrow",
+      "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Weather forecast information",
+  "screenshots": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "540x720",
+	    "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "type": "image/jpg",
+      "sizes": "540x720",
+	    "purpose": "any maskable"
+    }
+  ]
 }
