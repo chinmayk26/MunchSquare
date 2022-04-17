@@ -47,13 +47,12 @@ async function networkAndCache(req) {
   }
 }
 
-// install event
-self.addEventListener('install', evt => {
-console.log('service worker installed');
+self.addEventListener("install", event => {
+  console.log("Service Worker installed.");
 });
 
-self.addEventListener('activate', evt => {
-console.log('service worker activated');
+self.addEventListener("activate", event => {
+  console.log("Service Worker activated.");
 });
 
 // fetch event
