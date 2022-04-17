@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
+ <link rel="apple-touch-icon" href="icon.png">
  <meta name="theme-color" content="#4A90E2"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
