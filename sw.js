@@ -45,3 +45,23 @@ async function networkAndCache(req) {
     return cached;
   }
 }
+
+
+const assets to.cache = [  
+'./homepage.php',      
+]  
+  
+self. addEventListener ('install', function (event) {  
+    event. wait Until (  
+        caches. Open('staticAssetsCache')  
+        then (function (cache) {  
+		console.log("installed pwa");
+              return cache Add All (assetsToCache.);  
+        })  
+      );  
+});  
+
+self.addEventListener('activate', function(event) {  
+  // Perform some task  
+  	console.log("activated pwa");
+});  
