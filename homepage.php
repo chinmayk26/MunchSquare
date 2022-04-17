@@ -447,5 +447,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
   divInstall.classList.toggle('hidden', false);
 });
 </script>
+  <link rel="manifest" href="./manifest.json">
    <script src="app.js"></script>
 </html>
