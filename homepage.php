@@ -430,7 +430,7 @@
     if (Notification.permission === 'granted') {
       navigator.serviceWorker.register('./sw.js')
         .then((worker) => {
-          worker.showNotification('Hello world!');
+          worker.showNotification('Welcome to Munch Square!');
         });
     }
   });
