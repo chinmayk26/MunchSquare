@@ -424,6 +424,18 @@
         console.log("No it didn't. This happened:", err)
     });
  }
+ 
+ if (window.Notification) {
+  Notification.requestPermission(() => {
+    if (Notification.permission === 'granted') {
+      navigator.serviceWorker.register('./sw.js')
+        .then((worker) => {
+          worker.showNotification('Hello world!');
+        });
+    }
+  });
+}
+
 </script>
    <script src="app.js"></script>
 </html>
