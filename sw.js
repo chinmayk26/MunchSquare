@@ -5,7 +5,7 @@ const staticAssets = [
   './index.css',
   './style.html',
   './dummy.html',
-   './homepage.php',
+  
 ];
 
 self.addEventListener('install', async e => {
@@ -55,6 +55,7 @@ console.log('service worker installed');
 self.addEventListener('activate', evt => {
 console.log('service worker activated');
 });
+
 // fetch event
 self.addEventListener('fetch',evt =>{
 console.log(evt.request.fetch);
