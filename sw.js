@@ -1,3 +1,12 @@
+self.addEventListener('install', evt => {
+  console.log('service worker installed');
+});
+
+// activate event
+self.addEventListener('activate', evt => {
+  console.log('service worker activated');
+});
+
 const staticCacheName = 'site-static-v3';
 const dynamicCacheName = 'site-dynamic-v3';
 const assets = [
