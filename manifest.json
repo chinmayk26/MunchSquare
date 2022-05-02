@@ -1,6 +1,6 @@
 {
-  "short_name": "Weather",
-  "name": "Weather: Do I need an umbrella?",
+  "short_name": "MunchSqaure",
+  "name": "MunchSquare, A food delivery app",
   "icons": [
     {
       "src": "icon.png",
@@ -28,21 +28,21 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
+      "name": "MunchSquare",
+      "short_name": "MunchSquare",
+      "description": "A food delivery app",
       "url": "https://munchsquare.herokuapp.com/homepage.php",
       "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     },
     {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
+      "name": "MunchSquare",
+      "short_name": "MunchSquare",
+      "description": "A food delivery app",
       "url": "https://munchsquare.herokuapp.com/homepage.php",
       "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     }
   ],
-  "description": "Weather forecast information",
+  "description": "A food delivery app",
   "screenshots": [
     {
       "src": "icon.png",
