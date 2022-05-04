@@ -137,7 +137,7 @@
           <h3 class="about-heading">About Us</h3>
           <p class="about-desc">We're the go-to place when you want to read blog, discover restaurant reviews, or plan your next meal delivery. Featuring the latest food trends, recipes and dining destinations. What are you waiting for?</p>
           <!-- <button type="button" class="btn btn-outline-light btn-lg download-button"> Explore restaurant</button> -->
-          <button type="button" onclick="myFunction()" class="button"> Explore restaurant</button> 
+          <button type="button" onclick="myFunction()" class="button"> Explore restaurant</button>
           <!-- <a href="restaurants.php"class="btn btn-outline-light btn-lg download-button"> Explore restaurant </a> -->
           <!-- <a href="about.php" class="btn btn-outline-light btn-lg download-button">Explore</a> -->
         </div>
@@ -455,6 +455,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
   // Remove the 'hidden' class from the install button container.
  // divInstall.classList.toggle('hidden', false);
 });
+
 </script>
   <link rel="manifest" href="./manifest.json">
    <script src="app.js"></script>
