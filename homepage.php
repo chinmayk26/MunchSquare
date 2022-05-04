@@ -421,6 +421,7 @@
     navigator.serviceWorker.register('sw.js')
       .then(function(reg){
         console.log("Yes, it did.");
+        console.log("Data Synced");
      }).catch(function(err) {
         console.log("No it didn't. This happened:", err)
     });
