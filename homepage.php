@@ -424,6 +424,7 @@ var swReg = await navigator.serviceWorker.register("sw.js");
 swReg.sync.register("helloSync").then(function() {
   console.log("Sync works");
 });
+}
 
  if ('serviceWorker' in navigator) {
     console.log("Will the service worker register?");
