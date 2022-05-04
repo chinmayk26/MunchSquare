@@ -43,6 +43,12 @@ self.addEventListener('activate', evt => {
   );
 });
 
+self.addEventListener('sync', event => {
+	if(event.tag == 'helloSync'){
+		console.log("hello sync sucess");
+	}
+});
+
 // fetch events
 self.addEventListener('fetch', evt => {
   if(evt.request.url.indexOf('firestore.googleapis.com') === -1){

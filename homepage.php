@@ -137,7 +137,8 @@
           <h3 class="about-heading">About Us</h3>
           <p class="about-desc">We're the go-to place when you want to read blog, discover restaurant reviews, or plan your next meal delivery. Featuring the latest food trends, recipes and dining destinations. What are you waiting for?</p>
           <!-- <button type="button" class="btn btn-outline-light btn-lg download-button"> Explore restaurant</button> -->
-          <a href="restaurants.php"class="btn btn-outline-light btn-lg download-button"> Explore restaurant </a>
+          <button type="button" onclick="myFunction()" class="button"> Explore restaurant</button> 
+          <!-- <a href="restaurants.php"class="btn btn-outline-light btn-lg download-button"> Explore restaurant </a> -->
           <!-- <a href="about.php" class="btn btn-outline-light btn-lg download-button">Explore</a> -->
         </div>
       </div>
@@ -416,6 +417,14 @@
 
 </body>
 <script>
+
+async function myFunction() {
+
+var swReg = await navigator.serviceWorker.register("sw.js");
+swReg.sync.register("helloSync").then(function() {
+  console.log("Sync works");
+});
+
  if ('serviceWorker' in navigator) {
     console.log("Will the service worker register?");
     navigator.serviceWorker.register('sw.js')
