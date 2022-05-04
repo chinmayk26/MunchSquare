@@ -65,9 +65,3 @@ self.addEventListener('fetch', evt => {
     );
   }
 });
-
-self.addEventListener('sync', function(event) {
-  if (event.tag == 'myFirstSync') {
-    event.waitUntil(console.log{"Sync success"));
-  }
-});
