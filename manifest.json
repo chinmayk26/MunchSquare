@@ -21,7 +21,7 @@
 	    "purpose": "any maskable"
     }
   ],
-  "start_url": "https://munch956.herokuapp.com/homepage.php",
+  "start_url": "https://munch456.herokuapp.com/homepage.php",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/",
@@ -31,14 +31,14 @@
       "name": "MunchSquare",
       "short_name": "MunchSquare",
       "description": "A food delivery app",
-      "url": "https://munch956.herokuapp.com/homepage.php",
+      "url": "https://munch456.herokuapp.com/homepage.php",
       "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     },
     {
       "name": "MunchSquare",
       "short_name": "MunchSquare",
       "description": "A food delivery app",
-      "url": "https://munch956.herokuapp.com/homepage.php",
+      "url": "https://munch456.herokuapp.com/homepage.php",
       "icons": [{ "src": "icon.png", "sizes": "192x192" }]
     }
   ],
