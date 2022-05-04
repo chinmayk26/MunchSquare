@@ -1,0 +1,76 @@
+{
+  "short_name": "MunchSquare",
+  "name": "OnlinefoodDelivery",
+  "theme_color": "#4A90E2",
+  "background_color": "#F7F8F9",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/about.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/blogs 1.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/brita.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/bsk.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/burger.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/chef-1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/chef.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/deliver-1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/deliver.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/dunkin.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/logo 1.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/logo 2.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    }
+  ],
+  "start_url": "https://munch756.herokuapp.com/homepage.php"
+}
